@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 SergioPoverony
+#pragma once
+#include <string>
+
+struct HttpResult {
+    bool connected = false;    // удалось ли вообще подключиться
+    int status = 0;            // код ответа (200, 404, ...), 0 если не дошло до ответа
+    std::string body;
+};
+
+// GET host:port/path (path начинается с '/').
+HttpResult http_get(const std::string& host, int port, const std::string& path, int timeout_ms);
+
+// POST с JSON-телом. Заголовок X-Requested-With добавляется для совместимости, нашей службе он не нужен.
+HttpResult http_post(const std::string& host, int port, const std::string& path,
+                     const std::string& body, int timeout_ms);

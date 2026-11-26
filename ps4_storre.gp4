@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<psproject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fmt="gp4" version="1000">
+  <volume>
+    <volume_type>pkg_ps4_app</volume_type>
+    <volume_ts>2026-11-24 12:00:00</volume_ts>
+    <package content_id="IV0000-STOR00001_00-PS4STORRE0000000" passcode="00000000000000000000000000000000" storage_type="digital50" app_type="full" c_date="2026-11-24" />
+    <chunk_info chunk_count="1" scenario_count="1">
+      <chunks>
+        <chunk id="0" layer_no="0" label="Chunk #0" />
+      </chunks>
+      <scenarios default_id="0">
+        <scenario id="0" type="sp" initial_chunk_count="1" label="Scenario #0">0</scenario>
+      </scenarios>
+    </chunk_info>
+  </volume>
+  <files img_no="0">
+    <file targ_path="sce_sys/param.sfo" orig_path="sce_sys/param.sfo" />
+    <file targ_path="sce_sys/pic1.png" orig_path="sce_sys/pic1.png" />
+    <file targ_path="sce_sys/icon0.png" orig_path="sce_sys/icon0.png" />
+    <file targ_path="sce_sys/keystone" orig_path="sce_sys/keystone" />
+    <file targ_path="sce_sys/about/right.sprx" orig_path="sce_sys/about/right.sprx" />
+    <file targ_path="eboot.bin" orig_path="eboot.bin" />
+    <file targ_path="sce_module/libSceFios2.prx" orig_path="sce_module/libSceFios2.prx" />
+    <file targ_path="sce_module/libc.prx" orig_path="sce_module/libc.prx" />
+    <file targ_path="assets/fonts/DejaVuSansMono.ttf" orig_path="assets/fonts/DejaVuSansMono.ttf" />
+    <file targ_path="assets/fonts/NotoSans-Regular.ttf" orig_path="assets/fonts/NotoSans-Regular.ttf" />
+    <file targ_path="assets/fonts/NotoSans-SemiBold.ttf" orig_path="assets/fonts/NotoSans-SemiBold.ttf" />
+    <file targ_path="assets/images/btn_circle.png" orig_path="assets/images/btn_circle.png" />
+    <file targ_path="assets/images/btn_cross.png" orig_path="assets/images/btn_cross.png" />
+    <file targ_path="assets/images/btn_l1.png" orig_path="assets/images/btn_l1.png" />
+    <file targ_path="assets/images/btn_l2.png" orig_path="assets/images/btn_l2.png" />
+    <file targ_path="assets/images/btn_options.png" orig_path="assets/images/btn_options.png" />
+    <file targ_path="assets/images/btn_r1.png" orig_path="assets/images/btn_r1.png" />
+    <file targ_path="assets/images/btn_r2.png" orig_path="assets/images/btn_r2.png" />
+    <file targ_path="assets/images/btn_square.png" orig_path="assets/images/btn_square.png" />
+    <file targ_path="assets/images/btn_triangle.png" orig_path="assets/images/btn_triangle.png" />
+    <file targ_path="assets/images/logo_header.png" orig_path="assets/images/logo_header.png" />
+    <file targ_path="assets/icon0.png" orig_path="assets/icon0.png" />
+    <file targ_path="assets/misc/catalog.json" orig_path="assets/misc/catalog.json" />
+    <file targ_path="assets/misc/catalog.pak" orig_path="assets/misc/catalog.pak" />
+    <file targ_path="assets/misc/storre_installerd.elf" orig_path="assets/misc/storre_installerd.elf" />
+    <file targ_path="assets/misc/storre_torrentd.elf" orig_path="assets/misc/storre_torrentd.elf" />
+    <file targ_path="assets/daemons/storre_installerd.elf" orig_path="assets/daemons/storre_installerd.elf" />
+    <file targ_path="assets/daemons/storre_torrentd.elf" orig_path="assets/daemons/storre_torrentd.elf" />
+  </files>
+  <rootdir>
+    <dir targ_name="sce_sys">
+      <dir targ_name="about" />
+    </dir>
+    <dir targ_name="assets">
+      <dir targ_name="fonts" />
+      <dir targ_name="images" />
+      <dir targ_name="misc" />
+      <dir targ_name="daemons" />
+    </dir>
+    <dir targ_name="sce_module" />
+  </rootdir>
+</psproject>

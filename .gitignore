@@ -1,0 +1,32 @@
+# Тяжелая база каталога и дампы (обрабатываются локально)
+rutracker-*.xml.xz
+assets/misc/catalog.pak
+assets/misc/catalog.json
+tools/master_catalog/
+tools/temp/
+
+# Сборки и бинарные артефакты
+build_win/
+build_ps4/
+release/
+eboot.bin
+*.o
+*.obj
+*.a
+*.elf
+*.oelf
+*.exe
+*.dll
+*.pkg
+*.log
+daemons/*/build/
+daemons/*/release/
+
+# Временные файлы и окружения
+.venv/
+.vscode/
+.vs/
+*.bak
+*.tmp
+__pycache__/
+*.pyc

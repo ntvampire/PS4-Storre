@@ -1,0 +1,7 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 SergioPoverony
+#pragma once
+
+// Единственное место с версией: служба и (позже) приложение PKG берут её отсюда.
+// Последняя цифра растёт на каждой пересборке.
+#define APP_VERSION "0.1.0.67"
